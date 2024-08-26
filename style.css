@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+/* -------------Header start------------- */
+
+.logo a {
+    text-decoration: none;  
+    font-family:'Roboto Slab', serif;
+}
+
+.main-brand{
+    font-size: 2rem;
+    color: #31353e;
+}
+
+.site-brand{
+    padding: 0%;
+    font-size: 1rem;
+    color: #dd4b2b;
+}
+
+.navbar-nav li a {
+    border-radius: 30px;
+    transition: all .4s ease-in-out;
+}
+
+.navbar-nav li a:hover {
+    background-color: #dd4b2b;
+    color: #ffff;   
+}
+.navbar-nav li{
+    font-family:'Roboto Slab', serif;
+    font-weight: 400;
+    color: #31353e;
+    font-size: 18px;
+}
+
+toggle-icon fa-bars {
+    background-color: #d75d0e;
+    color: #d75d0e;
+}
+.hero{
+    min-height: 100vh;
+    width: 100vw;
+    background-image: url(image/Panakeia_header-banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero h1 {
+    font-family:'Roboto Slab', serif;
+    font-weight: 300;
+    font-size: 4rem;
+    color: #d75d0e;
+}
+
+.hero p {
+    font-family:'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 2rem;
+    
+}
+
+.hero h3 {
+    font-family:'Roboto Slab', serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    
+}
+.hero h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 28px;
+}
+
+.hero-btn{
+    border: none;
+    color: #4b4e73;
+    padding: 10px 35px;
+    background-color: #ffff;
+    border-radius: 30px;
+    font-family:'Roboto Slab', serif;
+    font-weight: 400;
+    width: 180px;
+    margin-bottom: 20px;
+}
+/* -------------Header End------------- */
+
+/* -------------News Start---------- */
+ .news{
+    background-color: #edeff1;
+ }
+
+ .news h1 {
+    font-family:'Roboto Slab', serif;
+    font-weight: 700;
+    color: #31353e;
+ }
+
+ .news h3 {
+    color: #31353e;
+ }
+
+ .news p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: .9rem;
+    color: #31353e;
+    line-height: 27px;
+ }
+ 
+ .news-btn {
+    padding: 10px 30px;
+    background-color: #ffff;
+    border-radius: 30px;
+    font-family:'Roboto Slab', serif;
+    font-weight: 400;
+    width: 160px;
+    border: none;
+ }
+/* -------------News End---------- */
+
+/* -----------Newsletter Start-------------- */
+
+.newsletter{
+    position: relative;
+    min-height: 40vh;
+    width: 100vw;
+    background-image: url(image/Panakeia_newsslatter.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.newsletter h1 {
+    font-family:'Roboto Slab', serif;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.newsletter p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #d75d0e;
+}
+
+
+/* .input-page{   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+input{   
+    position: relative;
+    font-size: 20px;
+    transition: .5s;
+}
+
+input[type="text"] {
+    width: 420px;
+    height: 60px;
+    border: .1px solid #d75d0e;
+    outline: none;
+    padding: 0 20px;
+    border-radius: 30px;
+    background-color: rgba(218, 212, 212, 0.2);
+    color: #615d5d;
+    
+}
+
+input[type="submit"] {
+    position: relative;
+    left: -10%;
+    width: 200px;
+    height: 61px;
+    border: .1px solid #d75d0e;
+    outline: none;
+    padding: 0 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #fbfdff;
+    color: #4b4e73;
+    font-family:'Roboto Slab', serif;
+    
+}
+
+@media only screen and (max-width: 576px) {
+
+    input[type="text"] {
+        width: 320px;
+        height: 50px;
+    }
+
+    input[type="submit"] {
+        width: 160px;
+        height: 50px;
+        justify-content: center;    
+        margin: 0 auto;  
+    }
+  }
+
+  @media only screen and (max-width: 460px) {
+    input[type="submit"] {
+        position: relative;
+        left: 0%;
+    }
+  }
+  
+
+/* -----------Newsletter End-------------- */
+
+/* --------------work start------------ */
+
+.work-btn{
+    padding: 8px 30px;
+    color: #edeff1;
+    border-radius: 30px;
+    font-family:'Roboto Slab', serif;
+    font-weight: 400;
+    width: 160px;
+    border: none; 
+    }
+
+/* --------------work End------------ */
+
+/* ---------Footer Start------------ */
+.footer-text {
+    background-color: #d75d0e;
+    color: #d1cccc;
+}
+
+.footer-img{
+    min-height: 30vh;
+    width: 100vw;
+    background-image: url(image/Panakeia_newsslatter.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+.footer-img p {
+    font-size: 20px;
+    color: #d75d0e;
+}
+
+/* ---------Footer End------------ */
